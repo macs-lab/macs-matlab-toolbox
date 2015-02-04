@@ -8,10 +8,9 @@ function varargout = msavefig(varargin)
 %  directory and figure will be preserved. Otherwise, users are promoted to
 %  enter the file name and the figure will be saved to the current
 %  directory.
-% 
-%  Xu Chen ucbmaxchen@gmail.com
-%  2013-07-25
-
+%   
+% Xu Chen xchen@engr.uconn.edu
+% University of Connecticut
 
 % distFig;
 if nargin == 0

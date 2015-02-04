@@ -1,10 +1,9 @@
 function xvbodeplot(sys,varargin)
 % function xbodeplot(sys,linewidth,sw_linestyle,freq_Hz)
 % xbodeplot using varargin mode
-% =========================================================================
-%   Copyright (c) 2008-, Xu Chen, maxchen@berkeley.edu
-%   Author(s): Xu Chen
-% =========================================================================
+%
+% Xu Chen xchen@engr.uconn.edu
+% University of Connecticut
 % 2011-04-26
 
 nall = nargin;

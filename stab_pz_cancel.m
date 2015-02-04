@@ -1,5 +1,5 @@
 function rtf = stab_pz_cancel(orgtf)
-% Xu Chen 
-% maxchen@berkeley.edu
-% 2011-06-02
+%   Copyright (c) 2008-, 
+%   Xu Chen xchen@engr.uconn.edu
+%   University of Connecticut
 rtf = minreal(tf(orgtf));

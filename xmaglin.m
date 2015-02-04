@@ -6,7 +6,8 @@ function [freq] = xmaglin(...
     freq_Hz)
 % function xbode(sys_siso,fig_color,line_style,fig_line_width)
 %
-% Author: Xu Chen maxchen@berkeley.edu
+% Xu Chen xchen@engr.uconn.edu
+% University of Connecticut
 % Initial Version: 2011-04-26
 ni = nargin;
 no = nargout;

@@ -3,11 +3,9 @@ function xbodemag(...
 % function xbodemag(sys,linewidth,sw_linestyle,freq_Hz,N_freq,sw_freqGrid_lin)
 % sys: cell array
 %
-% ============================================================
-%   multi-objective optimal Q-filter design in (D)DOBs
-%   Copyright 2008-, Xu Chen. All rights reserved
-%   Author(s): Xu Chen maxchen@berkeley.edu
-% ============================================================
+%   Copyright (c) 2008-, 
+%   Xu Chen xchen@engr.uconn.edu
+%   University of Connecticut
 % 2011-04-26
 
 ni = nargin;

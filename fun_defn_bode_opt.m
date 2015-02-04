@@ -1,9 +1,10 @@
 function bode_opt = fun_defn_bode_opt(xlim_low_Hz, Ts, flag_linear)
 % function bode_opt = fun_defn_bode_opt(xlim_low_Hz, Ts, flag_linear)
 % =========================================================================
-%   Copyright(C) 2008-, Xu Chen, maxchen@berkeley.edu
-%   Author(s): Xu Chen
-%   All rights reserved
+%   
+% Xu Chen xchen@engr.uconn.edu
+% University of Connecticut
+% 
 % =========================================================================
 % first ver: 2011-01-03
 if nargin < 3

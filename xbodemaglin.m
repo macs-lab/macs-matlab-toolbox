@@ -1,8 +1,8 @@
 function xbodemaglin(sys,linewidth,sw_linestyle,freq_Hz)
 % sys: cell array
 %
-% Xu Chen
-% maxchen@berkeley.edu
+%   Xu Chen xchen@engr.uconn.edu
+%   University of Connecticut
 % 2011-04-26
 
 ni = nargin;

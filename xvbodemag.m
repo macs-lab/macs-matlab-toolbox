@@ -1,12 +1,9 @@
 function xvbodemag(sys,varargin)
 % function xvbodemag(sys,linewidth,sw_linestyle,freq_Hz)
 % xbodeplot using varargin mode
-% =========================================================================
-%   Copyright (c) 2008-, Xu Chen, maxchen@berkeley.edu
-%   Author(s): Xu Chen
-% =========================================================================
+% Xu Chen xchen@engr.uconn.edu
+% University of Connecticut
 % 2011-04-26
-
 % under debug: 2013-07-26
 
 nall = nargin;

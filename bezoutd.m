@@ -17,6 +17,10 @@ function [Rp,Sp,nrp,nsp]=bezoutd(A,B,Hs,Hr,P)
 %
 %written by: J. Langer, I.D. Landau, H. Prochazka
 %7th june 2002
+%
+% modified by: 
+% Xu Chen xchen@engr.uconn.edu, 2010-06-16
+% University of Connecticut
 
 
 PRECISION=1e-16;
@@ -44,8 +48,6 @@ nhr=length(Hr)-1;
 % nah=length(Ah) -1;
 % if (nhr>0), Bh=real(convz(B,Hr)); else Bh=B*Hr; end;
 
-% Xu Chen
-% 2010-06-16
 if (nhs>0), Ah=real(conv(A,Hs)); else Ah=A*Hs; end; % Ah = A * Hs
 nah=length(Ah) -1;
 if (nhr>0), Bh=real(conv(B,Hr)); else Bh=B*Hr; end;

@@ -8,11 +8,12 @@ function [freq] = xbode(...
     absMag)
 % function xbode(sys_siso,fig_color,line_style,fig_line_width)
 %
-% =========================================================================
-%   Copyright (c) 2008-, Xu Chen, maxchen@berkeley.edu
-%   Author(s): Xu Chen
-% =========================================================================
+% 
+%   Copyright (c) 2008-, 
+%   Xu Chen xchen@engr.uconn.edu
+%   University of Connecticut
 % Initial Version: 2011-04-26
+
 ni = nargin;
 no = nargout;
 error( nargchk(1, 7, ni) );

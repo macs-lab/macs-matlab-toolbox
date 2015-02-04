@@ -2,10 +2,11 @@ function varargout=specCale(idata,Fs,NFFT)
 % function dataOut=Xu_specCal(idata,Fs)
 % this file calculates the spectrum of the input data
 %   Fs: sampling frequency
-% ============================================================
-%   Copyright (c) 2008-, Xu Chen, maxchen@berkeley.edu
-%   Author(s): Xu Chen
-% ============================================================
+% 
+%   Copyright (c) 2008-, 
+%   Xu Chen xchen@engr.uconn.edu
+%   University of Connecticut
+
 b_autoNFFT = 0;
 if nargin < 3
     b_autoNFFT = 1;

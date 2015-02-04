@@ -1,10 +1,10 @@
 function xbodeplot(sys,linewidth,sw_linestyle,freq_Hz)
 % function xbodeplot(sys,linewidth,sw_linestyle,freq_Hz)
 %
-% =========================================================================
-%   Copyright (c) 2008-, Xu Chen, maxchen@berkeley.edu
-%   Author(s): Xu Chen
-% =========================================================================
+% 
+%   Copyright (c) 2008-, 
+%   Xu Chen xchen@engr.uconn.edu
+%   University of Connecticut
 % 2011-04-26
 
 ni = nargin;
