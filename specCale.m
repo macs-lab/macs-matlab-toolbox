@@ -37,7 +37,7 @@ if size(idata,4)>1
         % dataOut.y = 20*log10(amp); %dB
         dataOut.amp(:,ii) = amp;
         dataOut.pha(:,ii) = angle(Y(1:NFFT/2))/pi*180;
-        ilegend{ii} = ['3\sigma = ',num2str(3*100/256*std(idata(:,:,:,ii)))];
+        ilegend{ii} = ['3\sigma = ',num2str(3*std(idata(:,:,:,ii)))];
     end
 else
     if size(idata,2) > size(idata,1)
@@ -65,7 +65,7 @@ else
         % dataOut.y = 20*log10(amp); %dB
         dataOut.amp(:,ii) = amp;
         dataOut.pha(:,ii) = angle(Y(1:NFFT/2))/pi*180;
-        ilegend{ii} = ['3\sigma = ',num2str(3*100/256*std(idata(:,ii)))];
+        ilegend{ii} = ['3\sigma = ',num2str(3*std(idata(:,ii)))];
     end
 end
 if nargout == 1
