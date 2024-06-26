@@ -2,8 +2,8 @@ function varName = get_selection(defaultVal,valRange)
 % varName = get_selection(varName,defaultVal,valRange)
 % In a while loop, selects a numerical value from a range of values.
 %
-% Xu Chen xchen@engr.uconn.edu
-% University of Connecticut
+% Xu Chen  
+%
 % initial version: 2013-09-29
 %
 if nargin < 2
@@ -30,3 +30,6 @@ if ~isempty(valRange)
         end
     end
 end
+
+end
+

@@ -8,8 +8,8 @@ function varargout = get_spectra(...
 %   compute the spectral of transfer functions based on the input-output
 %   data
 % 
-% Xu Chen xchen@engr.uconn.edu
-% University of Connecticut
+% Xu Chen  
+%  
 % initial version: 
 % 2011-11-29
 % 2012-05-18

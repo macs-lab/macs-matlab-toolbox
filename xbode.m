@@ -10,8 +10,8 @@ function [freq] = xbode(...
 %
 % 
 %   Copyright (c) 2008-, 
-%   Xu Chen xchen@engr.uconn.edu
-%   University of Connecticut
+%   Xu Chen  
+%    
 % Initial Version: 2011-04-26
 
 ni = nargin;

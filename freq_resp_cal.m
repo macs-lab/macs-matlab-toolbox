@@ -2,8 +2,8 @@ function [mag,Freq]=freq_resp_cal(y,u,Fs)
 % This function computes the magnitude and phase of the frequency response between u (input)
 % and y (output) using the spectral analysis.
 % 
-% Xu Chen xchen@engr.uconn.edu
-% University of Connecticut
+% Xu Chen  
+%  
 
 FRF = [];
 

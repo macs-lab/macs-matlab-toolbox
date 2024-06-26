@@ -4,8 +4,8 @@ function xbodemag(...
 % sys: cell array
 %
 %   Copyright (c) 2008-, 
-%   Xu Chen xchen@engr.uconn.edu
-%   University of Connecticut
+%   Xu Chen  
+%    
 % 2011-04-26
 
 ni = nargin;

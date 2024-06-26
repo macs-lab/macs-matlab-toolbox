@@ -4,8 +4,8 @@ function varargout=specCale(idata,Fs,NFFT)
 %   Fs: sampling frequency
 % 
 %   Copyright (c) 2008-, 
-%   Xu Chen xchen@engr.uconn.edu
-%   University of Connecticut
+%   Xu Chen  
+%    
 
 b_autoNFFT = 0;
 if nargin < 3

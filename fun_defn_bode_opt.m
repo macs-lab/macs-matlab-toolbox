@@ -2,8 +2,8 @@ function bode_opt = fun_defn_bode_opt(xlim_low_Hz, Ts, flag_linear)
 % function bode_opt = fun_defn_bode_opt(xlim_low_Hz, Ts, flag_linear)
 % =========================================================================
 %   
-% Xu Chen xchen@engr.uconn.edu
-% University of Connecticut
+% Xu Chen  
+%  
 % 
 % =========================================================================
 % first ver: 2011-01-03

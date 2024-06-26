@@ -4,5 +4,5 @@ function pha = phase_rad2angle(pha_rad)
 % within plus minus 180 degrees.
 % 
 % Xu Chen
-% xchen@engr.uconn.edu
+%  
 pha = mod(pha_rad*180/pi+180,360)-180;

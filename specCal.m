@@ -3,8 +3,8 @@ function dataOut=specCal(idata,Fs)
 % Fs: sampling frequency
 % ============================================================
 %   Copyright (c) 2008-, 
-%   Xu Chen xchen@engr.uconn.edu
-%   University of Connecticut
+%   Xu Chen  
+%    
 % ============================================================
 
 

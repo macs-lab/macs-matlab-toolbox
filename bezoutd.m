@@ -19,8 +19,8 @@ function [Rp,Sp,nrp,nsp]=bezoutd(A,B,Hs,Hr,P)
 %7th june 2002
 %
 % modified by: 
-% Xu Chen xchen@engr.uconn.edu, 2010-06-16
-% University of Connecticut
+% Xu Chen  , 2010-06-16
+%  
 
 
 PRECISION=1e-16;
